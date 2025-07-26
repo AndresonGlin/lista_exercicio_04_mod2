@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andreson Glin</title> 
+    <link rel="stylesheet" href="styles.css">
+    <!--Favicon-->
+    <link rel="icon" href="img/dev.png" type="image/x-icon">   
+</head>
+<body>
+    <header id="animacao-background">
+        <div id="perfil">
+            <img src="img/perfil.jpg" alt="Andreson Glin">
+            <h1>Andreson Glin</h1>            
+        </div>
+        <div>
+            <nav id="menu">
+                <a href="#sobre">Sobre</a>                             
+                <a href="#habilidades">Habilidades</a>                             
+                <a href="#projetos">Projetos</a>                             
+                <a href="#contato">Contato</a>                             
+            </nav>
+        </div>
+    </header> 
+    <main>
+        <section id="sobre">        
+                <h2>Sobre mim</h2>
+                <p>
+                    Olá! Me chamo Andreson Glin, sou formado em Ciência da Computação e venho aprofundando meus conhecimentos na área de Desenvolvimento de Software. Atualmente atuo como Analista de Sistemas, com foco em Business Intelligence (BI), trabalhando na criação de relatórios analíticos, processos de ETL e testes de software — tanto manuais quanto automatizados com Cypress.                    
+                </p> 
+                <p>
+                    Tenho me dedicado ao aprimoramento contínuo em tecnologias de desenvolvimento web, com o objetivo de atuar como Desenvolvedor Full Stack, Front-end ou Back-end. Busco uma oportunidade onde eu possa aplicar minhas habilidades técnicas, contribuir com soluções eficientes e crescer junto à equipe por meio de desafios e aprendizado constante.
+                </p>                            
+        </section>
+        <section id="habilidades">     
+        <h2>Habilidades</h2>        
+        <div class="cards-container">
+            <div> 
+                <h3>Front-End</h3>
+                <ul>
+                    <li><img src="img/html5.png" alt="HTML5"></li>
+                    <li><img src="img/css.png" alt="CSS"></li>
+                    <li><img src="img/javascript.png" alt="JavaScript"></li>
+                </ul>
+            </div>
+
+            <div> 
+                <h3>Back-End</h3>
+                <ul>
+                    <li><img src="img/node.png" alt="NodeJS"></li>
+                    <li><img src="img/postgre.png" alt="PostgreSQL"></li>
+                    <li><img src="img/Logo_oracle.jpg" alt="Oracle PL/SQL"></li>                    
+                </ul>
+            </div>
+            <div> 
+                <h3>Outros</h3>
+                <ul>
+                    <li><img src="img/powerbi.png" alt="Power BI"></li>                                        
+                    <li><img src="img/QlikSense.png" alt="Qlik Sense"></li>
+                    <li><img src="img/cypress.png" alt="Cypress"></li>
+                </ul>
+            </div>
+        </div>
+        </section>
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <article>
+                <h3>Controle de Gastos</h3>
+                <p>Software de controle de gastos pessoais.</p>
+            </article>
+            <article>
+                <h3>Loja de Calçados</h3>
+                <p>Projeto de loja virtual utilizando HTML, CSS e JavaScript.</p>
+            </article>
+            <article>
+                <h3>Controle de Gastos</h3>
+                <p>Software de controle de gastos pessoais.</p>
+            </article>        
+        </section>   
+        <section id="contato">
+            <h2>Contato</h2>
+            <div>
+                <h3>E-mail:</h3>
+                <p>andreson.glin@gmail.com</p>
+            </div> 
+            <div>
+                <h3>Telefone:</h3>
+                <p>(92) 98625 - 8016</p>
+            </div>                   
+        </section>   
+    </main>
+    <footer>
+        <p>&copy; 2025 Andreson Glin. Todos os direitos reservados.</p>
+    </footer>  
+    <!--Background Animation Header-->    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js"></script>
+    <script>
+        VANTA.DOTS({
+        el: "#animacao-background",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        showLines: false,
+        color: 0xffffff,
+        backgroundColor: 0x28282a
+        });
+    </script>
+</body>
+</html>
